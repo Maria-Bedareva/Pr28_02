@@ -32,7 +32,7 @@ int main() {
             std::cout << "[" << thread_num << "]: Sum = " << sum << std::endl;
         }
 
-#pragma omp barrier // Áàğüåğ äëÿ îæèäàíèÿ âñåõ ïîòîêîâ
+#pragma omp barrier // Ğ‘Ğ°Ñ€ÑŒĞµÑ€ Ğ´Ğ»Ñ Ğ¾Ğ¶Ğ¸Ğ´Ğ°Ğ½Ğ¸Ñ Ğ²ÑĞµÑ… Ğ¿Ğ¾Ñ‚Ğ¾ĞºĞ¾Ğ²
 
 #pragma omp master
         {
